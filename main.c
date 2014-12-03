@@ -390,8 +390,6 @@ int main()
 							InitUser(&LP,&id);
 					
 						InversListU(&LP);
-						printf("%s\n", *x);
-						ListUsersLengkap(LP);
 						sumscore = 0;
 						countscore = 0;
 						PX = FirstU(LP);
