@@ -90,14 +90,8 @@ void ListUsersLengkap (ListUsers LU)
 		while(PU != Nil)
 		{
 			printf("------- %s --------\n", InfoU(PU));
-			PS = FirstS(PU);
-			while(PS != Nil)
-			{
-				printf("%d ", InfoS(PS));
-				PS = NextS(PS);
-			}
 			PU = NextU(PU);
-			printf("\n\n");
+			printf("\n");
 		}
 	}
 	else
